@@ -1,24 +1,24 @@
 {
   "expo": {
     "name": "NoteFlow",
-    "slug": "NoteFlow",
+    "slug": "noteflow",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+      "supportsTablet": true,
+      "bundleIdentifier": "com.akongsehklose222.noteflow",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "package": "com.akongsehklose222.noteflow"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "095eea76-1bbd-4092-8036-0f81fdd20c0f"
+      }
     }
   }
 }
